@@ -3,5 +3,5 @@
 ## Next Features
 - [ ] Comando de compilação genérico
 - [ ] Versão Beta vs Versão Latest
-- [ ] Verificação de erros de compilação
-- [ ] Refresh manual para previnir errors
+- [x] Verificação de erros de compilação
+- [x] Refresh manual para previnir errors
