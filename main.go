@@ -50,7 +50,15 @@ func main() {
 			cmd.Stderr = os.Stderr
 			err := cmd.Run()
 			if err != nil {
-				fmt.Println(err)
+				var refresh string
+
+				fmt.Print("\nDigite qualquer tecla para reiniciar, (q) para sair: ")
+				fmt.Scanf("%s", &refresh)
+
+				if refresh != "q" {
+					continue
+				}
+				break
 			}
 			modTime = time.Now()
 		}
